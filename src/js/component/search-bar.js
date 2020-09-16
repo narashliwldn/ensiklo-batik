@@ -17,7 +17,7 @@ class SearchBar extends HTMLElement {
    }
 
    get value() {
-       return this.querySelector("#search-button").value;
+       return this.querySelector("#searchElement").value;
    }
 
    render() {
@@ -25,8 +25,9 @@ class SearchBar extends HTMLElement {
        <script>
         ${css}
 
-        .search-box {
-
+        #search-box {
+          box-shadow: 2px 2px 2px rgba(255,0,0,0.8);
+          border: 1px solid gray;
           background-color: white;
           border-radius: 25px;
           padding: 16px;

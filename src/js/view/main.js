@@ -10,10 +10,21 @@ const main =  () => {
       try {
         const result = await DataSource.searchBatik(searchElement.value);
         renderResult(result);
-      } catch (message) {
+      }
+      catch (message) {
         fallbackResult(message);
       }
 
+    };
+
+    const getAllBatik = async () => {
+      try {
+        const result = await DataSource.getAllBatik();
+        renderResult(result);
+      }
+      catch (message) {
+        fallbackResult(message);
+      }
     };
 
     const renderResult = (results) => {
@@ -24,6 +35,7 @@ const main =  () => {
         batikListElement.renderError(message);
     };
 
+    getAllBatik();
     searchElement.clickEvent = onButtonSearchClicked;
 };
 
