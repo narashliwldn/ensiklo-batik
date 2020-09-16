@@ -12,7 +12,7 @@ class DataSource {
     catch (error) {
       return Promise.reject(error);
     }
-      // return fetch(`https://superheroapi.com/api/2059791557497640/search/${keyword}`, {mode: 'no-cors'}).
+      // return fetch(`http://batikita.herokuapp.com/index.php/batik/${keyword}`).
       //   then(response => {
       //      return response.json();
       //  })
