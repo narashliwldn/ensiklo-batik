@@ -38,7 +38,7 @@ class SearchBar extends HTMLElement {
         <div class="search-box" id="search-box">
           <input type="search" placeholder="silahkan ketik batik apa yang ingin dicari" id="searchElement">
         </div>
-        <a class="red darken-1 waves-effect waves-light btn" id="search-button"><i class="material-icons left">search</i>Cari</a>
+        <a class="red darken-1 waves-effect waves-light btn-large" id="search-button"><i class="material-icons left">search</i>Cari</a>
       </div>
        `;
 

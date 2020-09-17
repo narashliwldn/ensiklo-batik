@@ -14,6 +14,7 @@
     "jquery": "^3.5.1",
     "materialize-css": "^1.0.0",
     "materialize-social": "^1.0.3",
+    "paginationjs": "^2.1.5",
     "regenerator-runtime": "^0.13.7"
   },
   "devDependencies": {
