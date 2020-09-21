@@ -2,7 +2,7 @@
   "name": "batik",
   "version": "1.0.0",
   "description": "batik",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "http-server .",
     "start-dev": "webpack-dev-server --config webpack.dev.js --open",
