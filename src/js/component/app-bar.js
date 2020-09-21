@@ -24,7 +24,7 @@ class AppBar extends HTMLElement {
           <div class="background">
             <img src="./images/batik.jpg">
           </div>
-          <a href="#"><img class="circle" src="./src/images/daimon.png"></a>
+          <a href="#"><img class="circle" src="./images/daimon.png"></a>
           <a href="#"><span class="white-text name">N Rani S</span></a>
           <a href="#"><span class="white-text name">Belajar Fundamental Front-End Web Development</span></a>
         </div>
