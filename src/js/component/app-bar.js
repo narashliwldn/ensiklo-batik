@@ -22,7 +22,7 @@ class AppBar extends HTMLElement {
       <li>
         <div class="user-view">
           <div class="background">
-            <img src="./images/batik.jpg">
+            <img src="./images/batik.png">
           </div>
           <a href="#"><img class="circle" src="./images/daimon.png"></a>
           <a href="#"><span class="white-text name">N Rani S</span></a>

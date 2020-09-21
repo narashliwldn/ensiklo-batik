@@ -9,7 +9,7 @@ import './js/component/header-parallax.js';
 import './js/component/footer-page.js';
 import main from './js/view/main.js';
 import './js/init.js';
-import './images/batik.jpg';
+import './images/batik.png';
 import './images/daimon.png';
 
 document.addEventListener("DOMContentLoaded", main);

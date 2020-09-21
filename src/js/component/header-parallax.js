@@ -19,7 +19,7 @@ class HeaderParallax extends HTMLElement {
 
     <div class="parallax-container">
       <div class="parallax">
-        <img src="./images/batik.jpg" alt="webpack-parallax">
+        <img src="./images/batik.png" alt="webpack-parallax">
       </div>
     </div>
     `;
