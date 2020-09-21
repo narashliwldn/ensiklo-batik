@@ -1,7 +1,7 @@
 class DataSource {
   static async searchBatik(keyword) {
     try {
-      const response = await fetch(`http://batikita.herokuapp.com/index.php/batik/${keyword}`);
+      const response = await fetch(`https://batikita.herokuapp.com/index.php/batik/${keyword}`);
       const responseJson = await response.json();
       if (responseJson.hasil) {
         return Promise.resolve(responseJson.hasil);
@@ -27,7 +27,7 @@ class DataSource {
 
   static async getAllBatik() {
     try {
-      const response = await fetch(`http://batikita.herokuapp.com/index.php/batik/all`);
+      const response = await fetch(`https://batikita.herokuapp.com/index.php/batik/all`);
       const responseJson = await response.json();
       if (responseJson.hasil) {
         return Promise.resolve(responseJson.hasil);
